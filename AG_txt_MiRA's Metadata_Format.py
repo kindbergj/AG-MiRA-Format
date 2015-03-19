@@ -35,7 +35,6 @@ def agDataFormat(ballz):
         hlist = []
         for each in range(0,len(hsplit)):
             hlist.append(hsplit[each])
-#         print hlist
         while keepgoing:
             linelist = []
             lines = re.split('\t',f.next().strip())
