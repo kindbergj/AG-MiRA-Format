@@ -13,7 +13,7 @@ def miraMetaformat(file):
     outfilename = ''.join((re.split('\.',file)[0] + '_out.txt'))
     outfile = open(outfilename,'w')
     outfile.write("Sample Name\t Category\t Key\t Value\n")
-#     outfile.close()
+    
     with open(file) as f:
 
         keepgoing = True
